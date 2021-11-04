@@ -1,6 +1,6 @@
 # 2. SHELLSHOCK
 
-## Subtitle / what it does
+## What it does
 Shellshock (CVE-2014-6271) is a vulnerability in bash shell and allows code execution when declaring new environment variable.
 
 ### Clear any existing containers
