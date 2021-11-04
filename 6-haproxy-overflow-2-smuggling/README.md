@@ -5,7 +5,7 @@ CVE-2021-40346 integer overflow enables http smuggling
 
 ## Build ##
 ```sh
-cd 6-haproxy
+cd 6-haproxy-overflow-2-smuggling
 docker-compose build 
 docker-compose up -d
 ```
