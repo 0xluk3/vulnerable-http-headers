@@ -36,6 +36,11 @@ Host: localhost:10001
 
 
 ```
+
+![image](https://user-images.githubusercontent.com/31791455/140395810-d1890aee-1285-451a-a663-bbf35746b5db.png)
+
+
+
 ## Recommended reading:
 https://forum.butian.net/share/694
 https://jfrog.com/blog/critical-vulnerability-in-haproxy-cve-2021-40346-integer-overflow-enables-http-smuggling/
