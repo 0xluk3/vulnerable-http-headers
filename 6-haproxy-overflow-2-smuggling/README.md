@@ -11,7 +11,7 @@ docker-compose up -d
 ```
 
 ## Burp Suite
-Remember to uncheck "update content length" when dealing with Smuggling in Burp!
+Remember to uncheck "update content length" when dealing with Smuggling in Burp! \
 ![image](https://user-images.githubusercontent.com/31791455/140394586-6a44d0f5-363e-455c-b22b-f619868bcc87.png)
 
 
