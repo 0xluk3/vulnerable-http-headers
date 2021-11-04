@@ -10,8 +10,14 @@ docker-compose build
 docker-compose up -d
 ```
 
+## Proxy
+Catch the base request into Burp
+```
+curl --proxy http://127.0.0.1:8080 http://192.168.139.128:10001/guest
+```
+
 ## Burp Suite
-Remember to uncheck "update content length" when dealing with Smuggling in Burp! \
+Remember to uncheck "update content length" when dealing with Smuggling in Burp! 
 
 ![image](https://user-images.githubusercontent.com/31791455/140394586-6a44d0f5-363e-455c-b22b-f619868bcc87.png)
 
