@@ -12,6 +12,7 @@ docker kill $(docker ps -q)
 ### Run in docker:
 ```
 cd 2-shellshock
+docker-compose build
 docker-compose up -d
 ```
 
