@@ -1,6 +1,7 @@
 # TITLE OF VULN
 ## Subtitle / what it does
 Ruby on Rails - arbitrary file read
+Also check its "child" vulnerability not related to Headers - https://github.com/knqyf263/CVE-2019-5420
 
 ### Run in docker:
 ```
@@ -26,12 +27,10 @@ curl -i -s -k  -X $'GET' \
 There is a File Content Disclosure vulnerability in Action View <5.2.2.1, <5.1.6.2, <5.0.7.2, <4.2.11.1 and v3 where specially crafted accept headers can cause contents of arbitrary files on the target system's filesystem to be exposed.
 
 ![image](https://user-images.githubusercontent.com/31791455/140390131-fd85589a-f379-4fb7-b967-e060838742a5.png)
-
+![image](https://user-images.githubusercontent.com/31791455/140390169-a646a665-9b95-4540-8f9b-93f6e6e37709.png)
 
 ### References and recommended reading
 https://chybeta.github.io/2019/03/16/Analysis-for%E3%80%90CVE-2019-5418
-![image](https://user-images.githubusercontent.com/31791455/140390169-a646a665-9b95-4540-8f9b-93f6e6e37709.png)
-
 
 ### Credits:
 https://gist.github.com/ajxchapman/6ed7bf599f29a62cdbab7b6e95eebed9
