@@ -1,6 +1,6 @@
 # HTTPOXY
 ## Injection of environment variable via "Proxy:" HTTP Header
-### Can lead to SSRF without URI resource control
+### Can lead to SSRF without URI path control
 
 ### Clear any existing containers
 ```
