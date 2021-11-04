@@ -33,9 +33,9 @@ CGI extensions utilize bash and are available remotely on web server.
 As CGIs create environment variables from user-supplied data, malicious HTTP header might cause code execution.
 
 ### References and recommended reading
-https://en.wikipedia.org/wiki/Common_Gateway_Interface
-https://en.wikipedia.org/wiki/Shellshock_(software_bug)
-https://owasp.org/www-pdf-archive/Shellshock_-_Tudor_Enache.pdf
+https://en.wikipedia.org/wiki/Common_Gateway_Interface\
+https://en.wikipedia.org/wiki/Shellshock_(software_bug)\
+https://owasp.org/www-pdf-archive/Shellshock_-_Tudor_Enache.pdf\
 
 ### Credits:
 https://github.com/vulhub/vulhub/tree/4d17ab2d4df39eefad5c498c5aa60b036a05494d/bash/shellshock
