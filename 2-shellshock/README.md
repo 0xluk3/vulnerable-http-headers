@@ -4,6 +4,11 @@ Shellshock (CVE-2014-6271) is a vulnerability in bash shell and allows code exec
 CGI extensions utilize bash and are available remotely on web server.
 As CGIs create environment variables from user-supplied data, malicious HTTP header might cause code execution.
 
+### Clear any existing containers
+```
+docker kill $(docker ps -q)
+```
+
 ### Run in docker:
 ```
 cd 2-shellshock
