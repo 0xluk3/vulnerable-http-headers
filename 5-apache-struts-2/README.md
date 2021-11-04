@@ -41,4 +41,3 @@ This happens costam
 
 ### Credits:
 https://github.com/vulhub/vulhub/tree/4d17ab2d4df39eefad5c498c5aa60b036a05494d/struts2/s2-045
-![image](https://user-images.githubusercontent.com/31791455/140391845-7a4dd0c9-aa81-4449-b9cf-d310ed8b3ee9.png)
