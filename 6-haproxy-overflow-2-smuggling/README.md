@@ -16,6 +16,9 @@ Catch the base request into Burp
 curl --proxy http://127.0.0.1:8080 http://192.168.139.128:10001/guest
 ```
 
+![image](https://user-images.githubusercontent.com/31791455/140397000-4a163839-973f-42df-ac35-63601567f46e.png)
+
+
 ## Burp Suite
 Remember to uncheck "update content length" when dealing with Smuggling in Burp! 
 
