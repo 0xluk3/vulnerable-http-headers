@@ -1,5 +1,5 @@
-# 5. Apache Struts 2 OGNL Injection
-## Subtitle / what it does
+# 5. Apache Struts 2 OGNL Injection S2-045
+## What it does
 Apache Struts allows for injecting malicious Content-Type header which is later evaluated as OGNL Expression Language code. \
 If an attacker is able to change security measures by executing appropriate OGNL code first, then there is possibility of regular Code Execution. \
 If this vulnerability seem complex, please refer to "Recommended reading" section for useful lectures.
