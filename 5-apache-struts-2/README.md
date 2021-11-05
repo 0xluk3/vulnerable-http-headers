@@ -45,10 +45,10 @@ python2 poc.py "http://127.0.0.1:8080" "id"
 Apache Struts is a free, open-source framework for creating Java applications. It utilizes native dialect named OGNL (Object-Graph Navigation Language). It can be parsed in form of expressions, which makes related vulnerabilities similar to Server-Side Template Injections (in fact, it works in the same way as SSTIs).
 
 ### References and recommended reading
-https://portswigger.net/research/server-side-template-injection
-https://mindedsecurity.com/wp-content/uploads/2020/10/ExpressionLanguageInjection.pdf
-https://www.reshiftsecurity.com/ognl-injection-primer-for-java-developers/
-https://pentest-tools.com/blog/exploiting-ognl-injection-in-apache-struts/
+https://portswigger.net/research/server-side-template-injection \
+https://mindedsecurity.com/wp-content/uploads/2020/10/ExpressionLanguageInjection.pdf \
+https://www.reshiftsecurity.com/ognl-injection-primer-for-java-developers/ \
+https://pentest-tools.com/blog/exploiting-ognl-injection-in-apache-struts/ \
 https://nsfocusglobal.com/apache-struts2-remote-code-execution-vulnerability-s2-045/
 
 ### Credits:
