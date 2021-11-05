@@ -1,6 +1,8 @@
 # 5. Apache Struts 2 OGNL Injection
 ## Subtitle / what it does
-
+Apache Struts allows for injecting malicious Content-Type header which is later evaluated as OGNL Expression Language code. \
+If an attacker is able to change security measures by executing appropriate OGNL code first, then there is possibility of regular Code Execution. \
+If this vulnerability seem complex, please refer to "Recommended reading" section for useful lectures.
 
 ### Clear any existing containers
 ```
@@ -40,10 +42,14 @@ python2 poc.py "http://127.0.0.1:8080" "id"
 
 
 ### Explanation
-This happens costam
+Apache Struts is a free, open-source framework for creating Java applications. It utilizes native dialect named OGNL (Object-Graph Navigation Language). It can be parsed in form of expressions, which makes related vulnerabilities similar to Server-Side Template Injections (in fact, it works in the same way as SSTIs).
 
 ### References and recommended reading
-
+https://portswigger.net/research/server-side-template-injection
+https://mindedsecurity.com/wp-content/uploads/2020/10/ExpressionLanguageInjection.pdf
+https://www.reshiftsecurity.com/ognl-injection-primer-for-java-developers/
+https://pentest-tools.com/blog/exploiting-ognl-injection-in-apache-struts/
+https://nsfocusglobal.com/apache-struts2-remote-code-execution-vulnerability-s2-045/
 
 ### Credits:
 https://github.com/vulhub/vulhub/tree/4d17ab2d4df39eefad5c498c5aa60b036a05494d/struts2/s2-045
