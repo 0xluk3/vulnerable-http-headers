@@ -3,6 +3,12 @@
 Ruby on Rails - arbitrary file read
 Also check its "child" vulnerability not related to Headers - https://github.com/knqyf263/CVE-2019-5420
 
+### Clear any existing containers
+```
+docker kill $(docker ps -q)
+```
+
+
 ### Run in docker:
 ```
 cd 3-ruby-rails
