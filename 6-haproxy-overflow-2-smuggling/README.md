@@ -2,6 +2,10 @@
 
 CVE-2021-40346 integer overflow enables http smuggling
 
+### Clear any existing containers
+```
+docker kill $(docker ps -q)
+```
 
 ## Build ##
 ```sh
