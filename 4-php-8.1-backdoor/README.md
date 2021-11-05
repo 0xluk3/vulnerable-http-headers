@@ -1,5 +1,5 @@
 # 4. PHP 8.1-DEV BACKDOOR
-## Subtitle / what it does
+## What it does
 PHP 8.1-dev has been backdoored. A malicious "User-agentt" header can be sent along with the request. \
 Read more: https://arstechnica.com/gadgets/2021/03/hackers-backdoor-php-source-code-after-breaching-internal-git-server/ \
 https://news-web.php.net/php.internals/113838
