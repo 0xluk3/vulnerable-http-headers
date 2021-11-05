@@ -13,7 +13,7 @@ The labs are available on the internet and I am not their author. Respective cre
 Run the labs on virtual machine, never on host OS. \
 I am not responsible for whatever might be stored now, or in the future, in non-official docker images. Keep that in mind! \
 Remember that the environments are vulnerable and should be never exposed to external network. \
-Have fun!
+#### Have fun!
 
 ### Contact me
 Find me on twitter https://twitter.com/0xluk3
