@@ -1,5 +1,5 @@
 # 3. File Content Disclosure on Rails
-## Subtitle / what it does
+## What it does
 Ruby on Rails - arbitrary file read aka CVE-2019-5418. \
 Also check its "child" vulnerability not related to Headers. The file read might lead to code execution. Reference: https://github.com/knqyf263/CVE-2019-5420
 
