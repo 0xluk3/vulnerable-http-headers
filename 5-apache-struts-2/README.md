@@ -1,6 +1,12 @@
 # 5. Apache Struts 2 OGNL Injection
 ## Subtitle / what it does
 
+
+### Clear any existing containers
+```
+docker kill $(docker ps -q)
+```
+
 ### Run in docker:
 ```
 cd 5-apache-struts-2
