@@ -1,13 +1,12 @@
 # TITLE OF VULN
 ## Subtitle / what it does
-Ruby on Rails - arbitrary file read
-Also check its "child" vulnerability not related to Headers - https://github.com/knqyf263/CVE-2019-5420
+Ruby on Rails - arbitrary file read. \
+Also check its "child" vulnerability not related to Headers. The file read might lead to code execution. Reference: https://github.com/knqyf263/CVE-2019-5420
 
 ### Clear any existing containers
 ```
 docker kill $(docker ps -q)
 ```
-
 
 ### Run in docker:
 ```
