@@ -1,5 +1,4 @@
-# HaProxy Integer Overflow \
-# leads to HTTP Smuggling (CVE-2021-40346)
+# HaProxy Integer Overflow \leads to HTTP Smuggling (CVE-2021-40346)
 
 HaProxy is a popular load balancer software. CVE-2021-40346 is an integer overflow vulnerability, which leads to http smuggling. And, in turn, HTTP Smuggling leads to potential authorization bypasses or other consequences (see References for HTTP Smuggling). \
 A malicious Content-Length header leads to integer overflow. Later, this enables another vulnerability - HTTP Request Smuggling. In turn, this might lead to an authorization bypass.
